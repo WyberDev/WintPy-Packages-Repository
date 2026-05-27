@@ -22,7 +22,7 @@ def divide(div1, div2):
     div_result = div1 / div2
     print("\033[1mResult:\033[0m", div_result)
 
-operation = input("What operation do you want to perform? (add / multiply / subtract / divide / root): ").lower()
+operation = input("What operation do you want to perform? (add / multiply / subtract / divide / root / exit): ").lower()
 if operation == "root":
     variable10 = int(input("Square root of: "))
     sqrt(variable10)
@@ -42,3 +42,5 @@ if operation == "divide":
     variable9 = int(input("Divide by how much? "))
     divide(variable8, variable9)
 
+if operation == "exit"
+    exit
