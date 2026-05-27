@@ -1,6 +1,6 @@
 {
-    "nombre": "Calculator",
+    "nombre": "calculator",
     "version": "1.0.0",
     "comando": "calc",
-    "ejecutable": "Calculator.py"
+    "ejecutable": "calculator.py"
 }
