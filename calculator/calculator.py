@@ -42,5 +42,5 @@ if operation == "divide":
     variable9 = int(input("Divide by how much? "))
     divide(variable8, variable9)
 
-if operation == "exit"
+if operation == "exit":
     exit
